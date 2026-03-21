@@ -1,5 +1,5 @@
 profile:
-  default: Infrastructure Engineering
+  default: Engineering
 project:
   type: website
   pre-render:
