@@ -2,7 +2,6 @@
 Site Reliability Engineering(Observability)
 | [narayanana@gmail.com](mailto:narayanana@gmail.com)
 | [+91 917 664 1249](tel:+919176641249)
-| [example.com](https://example.com)
 | [linkedin.com/in/narayanananand](https://www.linkedin.com/in/narayanananand/)
 
 ## About me
