@@ -24,7 +24,8 @@ def pre_render():
         title = meta_data.get("title", "Resume")
         custom_domain = clean_domain(meta_data.get('custom-domain', None))
         secondary_email = meta_data.get('secondary-email', None)
-        description = meta_data.get('description', DEFAULT_TEXT_keywords = ', '.join(filter(None, [secondary_email, custom_domain, DEFAULT_TEXT_VAR]))
+        description = meta_data.get('description' or DEFAULT_TEXT_VAR)
+        keywords = ', '.join(filter(None, [secondary_email, custom_domain, DEFAULT_TEXT_VAR]))
         development_profile = {
             "website": {
                 "site-url": custom_domain,
