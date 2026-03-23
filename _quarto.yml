@@ -1,5 +1,6 @@
 profile:
   default: development
+
 project:
   type: website
   pre-render:
@@ -8,6 +9,7 @@ project:
     - ./post-render.py
   render:
     - "RESUME.md"
+
 website:
   page-footer:
     border: true
@@ -15,15 +17,20 @@ website:
     center: 
       - text: "<b>Download PDF</b>"
         href: /index.pdf
+
 format-links: false
+
 format:
   html:
+    output-file: index.html   # 🔥 THIS IS THE FIX
     theme:
       light: cosmo
       dark: darkly
     css: styles.css
     link-external-newwindow: true
     canonical-url: true
+
   pdf: default
+
 resources:
   - CNAME
